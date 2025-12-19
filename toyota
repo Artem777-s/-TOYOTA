@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Help Toyota — Гидроподвеска AHC LX570 / LC200 (комплект 350 000 ₽)</title>
+  <meta name="description" content="Оригинальный контрактный комплект гидроподвески AHC Lexus LX570 / Toyota Land Cruiser 200. Проверка до продажи, фото/видео до оплаты, 14 дней на проверку и установку. 350 000 ₽." />
+
+  <meta property="og:title" content="Help Toyota — готовое решение по гидроподвеске AHC" />
+  <meta property="og:description" content="LX570 / LC200 • комплект в наличии 350 000 ₽ • проверка по VIN • 14 дней • ответ за 5 минут" />
+  <meta property="og:type" content="website" />
+  <!-- После публикации вставь полный URL на картинку:
+  <meta property="og:image" content="https://artem777-s.github.io/HelpToyota/assets/05_kit_in_assembly.jpg" />
+  -->
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#0f172a;
+      --muted:#475569;
+      --card:#ffffff;
+      --line:rgba(15,23,42,.10);
+      --shadow: 0 18px 50px rgba(2,6,23,.08);
+      --r:18px; --maxw:1120px;
+
+      --red:#e11d48;
+      --soft:rgba(225,29,72,.10);
+      --soft2:rgba(225,29,72,.06);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      background:
+        radial-gradient(1100px 520px at 18% -12%, rgba(225,29,72,.10), transparent 62%),
+        radial-gradient(900px 420px at 85% 10%, rgba(225,29,72,.06), transparent 60%),
+        #fff;
+      color:var(--text);
+      line-height:1.55
+    }
+
+    a{color:inherit}
+    .wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px}
+    .section{padding:52px 0}
+    .grid{display:grid; gap:18px}
+    .grid.two{grid-template-columns: 1.05fr .95fr}
+    .grid.three{grid-template-columns: repeat(3, 1fr)}
+    .divider{border-top:1px solid var(--line); margin:22px 0}
+
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,.98), rgba(255,255,255,.92));
+      border:1px solid var(--line);
+      border-radius:var(--r);
+      box-shadow:var(--shadow)
+    }
+    .pad{padding:22px}
+
+    .muted{color:var(--muted)}
+    .h1{
+      font-size: clamp(30px, 3.2vw, 46px);
+      line-height:1.08;
+      letter-spacing:-.02em;
+      margin:0 0 12px
+    }
+    h2{
+      font-size: clamp(22px, 2.2vw, 30px);
+      margin:0 0 12px;
+      letter-spacing:-.01em
+    }
+    h3{margin:0 0 10px; font-size:18px}
+    p{margin:0 0 12px; font-size:16px}
+    ul{margin:0; padding-left:18px; color:var(--muted)}
+    li{margin:8px 0}
+
+    .chip{
+      display:inline-flex; gap:8px; align-items:center;
+      padding:8px 12px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:rgba(255,255,255,.78);
+      color:var(--muted);
+      font-size:13px;
+      white-space:nowrap
+    }
+
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding:14px 16px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background:#fff;
+      text-decoration:none;
+      font-weight:760;
+      box-shadow: 0 10px 24px rgba(2,6,23,.06);
+      cursor:pointer;
+      transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+      user-select:none;
+    }
+    .btn:hover{transform:translateY(-1px); box-shadow: 0 14px 30px rgba(2,6,23,.08)}
+    .btn.primary{
+      background:linear-gradient(180deg, rgba(225,29,72,.96), rgba(225,29,72,.86));
+      color:#fff;
+      border-color: rgba(225,29,72,.55);
+    }
+    .btn.tg{
+      background:linear-gradient(180deg, rgba(15,23,42,.96), rgba(15,23,42,.86));
+      color:#fff;
+      border-color: rgba(15,23,42,.25);
+    }
+    .btn.max{
+      background:linear-gradient(180deg, rgba(255,255,255,1), rgba(255,255,255,.92));
+      border-color: rgba(225,29,72,.22);
+    }
+    .btn.small{padding:10px 12px; border-radius:12px; font-size:14px}
+
+    /* Header */
+    .topbar{
+      position:sticky; top:0; z-index:50;
+      background:rgba(255,255,255,.78);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{display:flex; align-items:center; justify-content:space-between; gap:14px; padding:12px 0}
+    .brand-row{display:flex; align-items:center; gap:12px}
+    .logo{
+      width:44px; height:44px; border-radius:14px;
+      border:1px solid rgba(225,29,72,.18);
+      background:#fff;
+      object-fit:cover;
+      box-shadow: 0 10px 22px rgba(2,6,23,.08);
+    }
+    .brand-txt{display:flex; flex-direction:column}
+    .brand-txt b{font-size:15px; letter-spacing:.2px}
+    .brand-txt span{font-size:12px; color:var(--muted)}
+    .contacts{display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+    .phone{
+      font-weight:900;
+      text-decoration:none;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid rgba(225,29,72,.20);
+      background:rgba(225,29,72,.06);
+      color:#111827;
+    }
+
+    /* Hero premium layout */
+    .hero{padding:58px 0 20px}
+    .hero-kpis{display:flex; flex-wrap:wrap; gap:10px; margin-top:14px}
+    .hero-cta{display:grid; grid-template-columns: 1.1fr .9fr .9fr; gap:12px; margin-top:12px}
+    .hero-media{border-radius:16px; overflow:hidden; border:1px solid var(--line); background:#fff}
+    .hero-media img{width:100%; height:360px; object-fit:cover; display:block; cursor:zoom-in}
+    .hero-media .cap{padding:12px 14px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; background:rgba(225,29,72,.03)}
+    .note{
+      border-left:3px solid rgba(225,29,72,.78);
+      padding:10px 12px;
+      border-radius:12px;
+      background:var(--soft);
+      color:var(--muted)
+    }
+
+    /* Video */
+    .video{width:100%; border-radius:16px; border:1px solid var(--line); overflow:hidden; background:#000}
+    .video video{width:100%; display:block}
+
+    /* Carousel */
+    .carousel{position:relative; overflow:hidden; border-radius:16px; border:1px solid var(--line); background:#fff}
+    .carousel-track{display:flex; transition:transform .35s ease; will-change:transform}
+    .carousel-slide{min-width:100%}
+    .carousel-slide img{width:100%; height:440px; object-fit:cover; display:block; cursor:zoom-in}
+    .carousel-cap{padding:12px 14px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; background:rgba(225,29,72,.03)}
+    .car-controls{position:absolute; inset:0; display:flex; align-items:center; justify-content:space-between; padding:0 10px; pointer-events:none}
+    .car-btn{
+      pointer-events:auto;
+      width:44px; height:44px; border-radius:999px;
+      border:1px solid rgba(225,29,72,.25);
+      background:rgba(255,255,255,.85);
+      display:flex; align-items:center; justify-content:center;
+      cursor:pointer;
+    }
+    .car-dots{display:flex; gap:8px; justify-content:center; margin-top:12px; flex-wrap:wrap}
+    .dot{width:9px; height:9px; border-radius:999px; border:1px solid rgba(225,29,72,.25); background:rgba(225,29,72,.10); cursor:pointer}
+    .dot.active{background:rgba(225,29,72,.9); border-color:rgba(225,29,72,.65)}
+
+    /* Quiz */
+    .quiz-badge{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:8px 10px; border-radius:999px;
+      background:rgba(225,29,72,.08);
+      border:1px solid rgba(225,29,72,.20);
+      color:var(--muted); font-size:13px; font-weight:750;
+    }
+    .quiz-progress{height:8px; background:rgba(225,29,72,.10); border-radius:999px; overflow:hidden; border:1px solid rgba(225,29,72,.18)}
+    .quiz-progress > div{height:100%; width:0%; background:linear-gradient(90deg, rgba(225,29,72,.95), rgba(225,29,72,.70)); transition:width .25s ease}
+    .quiz-steps{display:grid; gap:12px; margin-top:14px}
+    .step{display:none}
+    .step.active{display:block}
+    .quiz-actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
+    .pill{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:12px 14px; border-radius:999px;
+      border:1px solid rgba(225,29,72,.22);
+      background:rgba(255,255,255,.95);
+      cursor:pointer; font-weight:820;
+    }
+    .pill:hover{transform:translateY(-1px)}
+    .case{
+      border:1px solid rgba(225,29,72,.18);
+      background:rgba(225,29,72,.04);
+      border-radius:16px;
+      padding:16px;
+    }
+
+    /* OEM list */
+    details{border:1px solid var(--line); border-radius:16px; background:rgba(225,29,72,.03); padding:14px 14px}
+    summary{cursor:pointer; font-weight:850}
+
+    /* Reviews */
+    .reviews{display:grid; grid-template-columns:repeat(3,1fr); gap:12px}
+    .rev{
+      padding:0;
+      border:1px solid var(--line);
+      border-radius:16px;
+      background:#fff;
+      overflow:hidden;
+      cursor:zoom-in;
+      box-shadow: 0 10px 22px rgba(2,6,23,.06);
+      transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+    }
+    .rev:hover{transform: translateY(-1px); box-shadow: 0 14px 30px rgba(2,6,23,.08); border-color: rgba(225,29,72,.25)}
+    .rev img{width:100%; height:190px; object-fit:contain; background:#fff; display:block}
+
+    /* Form */
+    .form{display:grid; gap:12px}
+    label{font-size:13px; color:var(--muted)}
+    input, select, textarea{
+      width:100%; padding:14px 14px; border-radius:14px;
+      border:1px solid var(--line); background:#fff; color:var(--text);
+      outline:none;
+    }
+    input:focus, select:focus, textarea:focus{
+      border-color: rgba(225,29,72,.55);
+      box-shadow: 0 0 0 4px rgba(225,29,72,.12)
+    }
+    textarea{min-height:96px; resize:vertical}
+    .success{
+      display:none; margin-top:12px; padding:12px 12px; border-radius:14px;
+      border:1px solid rgba(34,197,94,.35); background:rgba(34,197,94,.10); color:var(--text)
+    }
+
+    /* Footer + mobile */
+    .footer{padding:30px 0 90px; color:var(--muted)}
+    .mobbar{
+      position:fixed; left:0; right:0; bottom:0; z-index:60;
+      background:rgba(255,255,255,.86); backdrop-filter: blur(10px);
+      border-top:1px solid var(--line);
+      padding:10px 12px;
+      display:none;
+    }
+    .mobbar .wrap{display:flex; gap:10px}
+    .mobbar .btn{flex:1}
+
+    /* Lightbox Gallery */
+    .lb{position:fixed; inset:0; z-index:200; background:rgba(2,6,23,.72); display:none; align-items:center; justify-content:center; padding:18px;}
+    .lb.open{display:flex}
+    .lb-card{width:min(1180px, 96vw); background:#fff; border-radius:18px; overflow:hidden; box-shadow: 0 30px 90px rgba(0,0,0,.45); border:1px solid rgba(255,255,255,.12);}
+    .lb-top{display:flex; align-items:center; justify-content:space-between; padding:12px 14px; border-bottom:1px solid rgba(15,23,42,.10); background:rgba(225,29,72,.05);}
+    .lb-title{font-weight:900}
+    .lb-close{width:40px;height:40px;border-radius:12px;border:1px solid rgba(225,29,72,.25);background:#fff;cursor:pointer;font-size:18px;font-weight:900;}
+    .lb-body{position:relative; background:#0b0f14;}
+    .lb-stage{width:100%; height:min(72vh, 720px); display:flex; align-items:center; justify-content:center; overflow:auto;}
+    .lb-img{display:block; max-width:100%; max-height:100%; object-fit:contain; background:#0b0f14; cursor:grab; user-select:none;}
+    .lb-img:active{cursor:grabbing;}
+    .lb-nav{
+      position:absolute; top:50%; transform:translateY(-50%);
+      width:46px; height:46px; border-radius:999px;
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(255,255,255,.12);
+      color:#fff; font-size:28px; line-height:0;
+      display:flex; align-items:center; justify-content:center;
+      cursor:pointer;
+    }
+    .lb-nav.left{left:12px}
+    .lb-nav.right{right:12px}
+    .lb-nav:hover{background:rgba(255,255,255,.18)}
+    .lb-cap{padding:12px 14px; color:var(--muted); border-top:1px solid rgba(15,23,42,.10); background:#fff}
+    .lb-thumbs{
+      display:flex; gap:8px; padding:10px 12px 14px;
+      border-top:1px solid rgba(15,23,42,.08);
+      overflow:auto; background:#fff;
+    }
+    .lb-thumbs button{
+      border:1px solid rgba(225,29,72,.18);
+      background:#fff; border-radius:12px; padding:0; overflow:hidden; cursor:pointer;
+      width:84px; height:56px; flex:0 0 auto;
+    }
+    .lb-thumbs img{width:100%; height:100%; object-fit:cover; display:block}
+    .lb-thumbs button.active{outline:3px solid rgba(225,29,72,.35); border-color: rgba(225,29,72,.35)}
+
+    @media (max-width: 920px){
+      .grid.two{grid-template-columns:1fr}
+      .grid.three{grid-template-columns:1fr}
+      .carousel-slide img{height:360px}
+      .hero-media img{height:320px}
+      .reviews{grid-template-columns:repeat(2,1fr)}
+      .hero-cta{grid-template-columns:1fr}
+    }
+    @media (max-width: 560px){
+      .mobbar{display:block}
+      .phone{width:100%; text-align:center}
+      .reviews{grid-template-columns:1fr}
+      .carousel-slide img{height:320px}
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="wrap">
+      <div class="topbar-inner">
+        <div class="brand-row">
+          <img class="logo" src="assets/logo.jpg" alt="Help Toyota" />
+          <div class="brand-txt">
+            <b>Help Toyota</b>
+            <span>Контракт из Японии • Проверка до продажи • 14 дней • Отвечаем за <b>5 минут</b></span>
+          </div>
+        </div>
+
+        <div class="contacts">
+          <a class="phone" href="tel:+79586337303">📞 8&nbsp;958&nbsp;633-73-03</a>
+          <a class="btn max small" href="tel:+79586337303">MAX</a>
+          <a class="btn tg small" href="https://t.me/Kashcars" target="_blank" rel="noopener">Telegram</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO (Premium) -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="grid two" style="align-items:start;">
+        <div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <span class="chip">В наличии</span>
+            <span class="chip">AHC LX570 / LC200</span>
+            <span class="chip"><b>350 000 ₽</b></span>
+            <span class="chip">⏱ Ответ за 5 минут</span>
+          </div>
+
+          <h1 class="h1" style="margin-top:14px;">
+            Гидроподвеска AHC<br>
+            LX570 / Land Cruiser 200
+          </h1>
+
+          <p class="muted">
+            Готовый комплект “под ключ”: проверка до продажи, фото/видео до оплаты, подбор по VIN.
+            <b>14 дней</b> на проверку и установку — замена/возврат, берём ответственность на себя.
+          </p>
+
+          <div class="note" style="margin:14px 0 0;">
+            Обычно проблема — коррозия магистралей: ремонт становится глобальным (вплоть до отделения кабины от рамы).
+            В таких случаях правильное решение — менять систему целиком.
+          </div>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#quiz">Проверить, подходит ли вам</a>
+            <a class="btn max" href="tel:+79586337303">MAX</a>
+            <a class="btn tg" href="https://t.me/Kashcars" target="_blank" rel="noopener">Telegram</a>
+          </div>
+
+          <div class="hero-kpis">
+            <span class="chip">Toyota/Lexus с 2002 года</span>
+            <span class="chip">Контракт без пробега по РФ</span>
+            <span class="chip">Фото/видео — до оплаты</span>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div class="hero-media">
+            <img data-gallery="components" data-cap="Комплект в монтажной конфигурации" src="assets/05_kit_in_assembly.jpg" alt="Комплект гидроподвески AHC" />
+            <div class="cap">Комплект в монтажной конфигурации (пример)</div>
+          </div>
+
+          <div class="divider"></div>
+
+          <a class="btn primary" id="btnProof" href="#">Получить фото/видео комплекта</a>
+          <p class="muted" style="margin:10px 0 0;">
+            Напишите в Telegram — пришлём фото/видео и подтвердим совместимость по VIN.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="section" id="video">
+    <div class="wrap">
+      <div class="card pad">
+        <h2>Видео комплекта</h2>
+        <p class="muted">Короткое видео — лучше всего показывает состояние и комплектацию.</p>
+        <div class="video">
+          <video controls preload="metadata" playsinline src="assets/video.mp4"></video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPONENTS: CAROUSEL -->
+  <section class="section" id="components">
+    <div class="wrap">
+      <div class="card pad">
+        <h2>Комплектующие (карусель)</h2>
+        <p class="muted">Нажмите на фото — откроется увеличенный просмотр.</p>
+
+        <div class="carousel" id="componentsCarousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="1) Группа передних гидроаккумуляторов" src="assets/01_front_accumulators_group.jpg" alt="Группа передних гидроаккумуляторов" />
+              <div class="carousel-cap">1) Группа передних гидроаккумуляторов</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="2) Задний гидроаккумулятор" src="assets/02_rear_accumulator.jpg" alt="Задний гидроаккумулятор" />
+              <div class="carousel-cap">2) Задний гидроаккумулятор</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="3) Насос + бачок гидроподвески" src="assets/03_pump_reservoir.jpg" alt="Насос + бачок" />
+              <div class="carousel-cap">3) Насос + бачок гидроподвески</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="4) Блок клапанов гидроподвески" src="assets/04_valve_block.jpg" alt="Блок клапанов" />
+              <div class="carousel-cap">4) Блок клапанов гидроподвески</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="5) Пример гидросистемы в монтажной конфигурации" src="assets/05_kit_in_assembly.jpg" alt="Комплект в сборе" />
+              <div class="carousel-cap">5) Пример гидросистемы в монтажной конфигурации</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="6) Задняя шланг-трубка" src="assets/06_rear_hose_pipe.jpg" alt="Задняя шланг-трубка" />
+              <div class="carousel-cap">6) Задняя шланг-трубка</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="7) Передняя шланг-трубка" src="assets/07_front_hose_pipe.jpg" alt="Передняя шланг-трубка" />
+              <div class="carousel-cap">7) Передняя шланг-трубка</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="8) Трубка 3-составная от блока к насосу" src="assets/08_three_part_pipe_block_to_pump.jpg" alt="Трубка от блока к насосу" />
+              <div class="carousel-cap">8) Трубка 3-составная от блока к насосу</div>
+            </div>
+            <div class="carousel-slide">
+              <img data-gallery="components" data-cap="9) 2 трубки от правых гидроаккумуляторов к блоку клапанов" src="assets/09_pipes_right_accumulators_to_valve_block.jpg" alt="Трубки к блоку клапанов" />
+              <div class="carousel-cap">9) 2 трубки от правых гидроаккумуляторов к блоку клапанов</div>
+            </div>
+          </div>
+
+          <div class="car-controls">
+            <button class="car-btn" type="button" data-car-prev aria-label="Предыдущее">‹</button>
+            <button class="car-btn" type="button" data-car-next aria-label="Следующее">›</button>
+          </div>
+        </div>
+
+        <div class="car-dots" id="componentsDots"></div>
+
+        <div class="divider"></div>
+        <a class="btn primary" href="#vin">Подобрать по VIN</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="section" id="quiz">
+    <div class="wrap">
+      <div class="grid two">
+        <div class="card pad">
+          <span class="quiz-badge">Квиз 30 секунд</span>
+          <h2 style="margin-top:10px;">Подходит ли вам комплект?</h2>
+
+          <div class="quiz-progress"><div id="quizBar"></div></div>
+
+          <div class="quiz-steps">
+            <div class="step active" id="step1">
+              <h3>1) Какая у вас машина?</h3>
+              <div class="quiz-actions">
+                <button class="pill" type="button" data-q1="LX570">Lexus LX570</button>
+                <button class="pill" type="button" data-q1="LC200">Toyota Land Cruiser 200</button>
+                <button class="pill" type="button" data-q1="Не уверен">Не уверен</button>
+              </div>
+            </div>
+
+            <div class="step" id="step2">
+              <h3>2) Что за проблема?</h3>
+              <div class="quiz-actions">
+                <button class="pill" type="button" data-q2="Коррозия магистралей / течи">Коррозия магистралей / течи</button>
+                <button class="pill" type="button" data-q2="Ошибка AHC / просадка">Ошибка AHC / просадка</button>
+                <button class="pill" type="button" data-q2="Нужна система целиком">Нужна система целиком</button>
+              </div>
+              <div class="divider"></div>
+              <a class="btn primary" id="quizToTG" href="#">Получить решение в Telegram</a>
+              <p class="muted" style="margin-top:10px;">Обычно отвечаем за <b>5 минут</b>.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <h2>3 кейса (кратко)</h2>
+          <div class="grid" style="gap:12px;">
+            <div class="case"><b>LX570</b> — сгнили магистрали → замена системы целиком → всё работает.</div>
+            <div class="case"><b>LC200</b> — сервис “не понимает” → сверка по VIN → установка без сюрпризов.</div>
+            <div class="case"><b>Новый комплект</b> — долго/дорого → решение в наличии за 350 000 ₽.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OEM -->
+  <section class="section" id="oem">
+    <div class="wrap">
+      <div class="card pad">
+        <h2>OEM-номера (для проверки)</h2>
+        <details>
+          <summary>Показать список OEM-номеров</summary>
+          <div class="muted" style="margin-top:12px;">
+            <ul>
+              <li><b>49162-60021</b> — трубка переднего левого амортизатора</li>
+              <li><b>49161-60021</b> — трубка переднего правого амортизатора</li>
+              <li><b>Комплект гидроаккумуляторов передний правый:</b> 48010-60010, 48981-60030, 48030-60010, 49147-60010, 48982-60070</li>
+              <li><b>Комплект гидроаккумуляторов передний левый:</b> 49041-60030, 49147-60010, 48020-60010, 49141-60020, 48991-60010, 48992-60010</li>
+              <li><b>48994-60030</b> — трубка от переднего правого гидроаккумулятора к центральному блоку управления</li>
+              <li><b>48983-60030</b> — трубка от переднего левого гидроаккумулятора к центральному блоку управления</li>
+              <li><b>Блок клапанов центральный:</b> 49081-60010, 49130-60020, 48940-60020, 489D0-60010</li>
+              <li><b>48984-60030</b>, <b>48983-60030</b> — трубки от блока клапанов к задним гидроаккумуляторам</li>
+              <li><b>Гидроаккумулятор задний правый:</b> 49158-60010, 48030-60010, 49151-60020</li>
+              <li><b>Гидроаккумулятор задний левый:</b> 49158-60010, 48040-60010</li>
+              <li><b>49163-60021</b> — шланг/трубка заднего правого амортизатора</li>
+              <li><b>49164-60021</b> — шланг/трубка заднего левого амортизатора</li>
+              <li><b>48999-60010</b>, <b>48998-60010</b> — трубки от насоса к блоку</li>
+              <li><b>Насос (варианты):</b> GF191-00180, 179730-0100, 48910-60030, 48910-60031, 48910-60032, 4891060030, 4891060031, 4891060032, 82177-60021</li>
+            </ul>
+            <p style="margin-top:10px;">OEM-номера указаны для идентификации. Финальную совместимость подтверждаем по VIN.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="reviews">
+    <div class="wrap">
+      <div class="grid two">
+        <div class="card pad">
+          <h2>Отзывы (Avito)</h2>
+          <p class="muted">
+            Проверяемый источник: <a href="https://www.avito.ru/profile/rating" target="_blank" rel="noopener"><b>рейтинг и отзывы</b></a>.
+          </p>
+
+          <div class="divider"></div>
+
+          <div class="reviews" id="reviewsGrid">
+            <button class="rev" type="button" data-gallery="reviews" data-src="assets/reviews/rev1.png" data-cap="Отзыв Avito: Гидроподвеска LX570">
+              <img src="assets/reviews/rev1.png" alt="Отзыв Avito 1">
+            </button>
+            <button class="rev" type="button" data-gallery="reviews" data-src="assets/reviews/rev2.png" data-cap="Отзыв Avito: Насос AHC LC200">
+              <img src="assets/reviews/rev2.png" alt="Отзыв Avito 2">
+            </button>
+            <button class="rev" type="button" data-gallery="reviews" data-src="assets/reviews/rev3.png" data-cap="Отзыв Avito: Всё отлично работает">
+              <img src="assets/reviews/rev3.png" alt="Отзыв Avito 3">
+            </button>
+          </div>
+
+          <div class="divider"></div>
+          <a class="btn primary" href="https://www.avito.ru/profile/rating" target="_blank" rel="noopener">Смотреть отзывы на Avito</a>
+        </div>
+
+        <div class="card pad">
+          <h2>Контакты</h2>
+          <p class="muted">Самый быстрый способ — звонок или Telegram. Ответ за 5 минут.</p>
+          <div class="grid" style="grid-template-columns:1fr; gap:12px;">
+            <a class="btn primary" href="tel:+79586337303">📞 Позвонить: 8 958 633-73-03</a>
+            <a class="btn max" href="tel:+79586337303">MAX</a>
+            <a class="btn tg" href="https://t.me/Kashcars" target="_blank" rel="noopener">Telegram: @Kashcars</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIN FORM -->
+  <section class="section" id="vin">
+    <div class="wrap">
+      <div class="grid two">
+        <div class="card pad">
+          <h2>Проверка по VIN</h2>
+          <p class="muted">Оставьте VIN — подтвердим совместимость и пришлём фото/видео комплекта. Ответ за 5 минут.</p>
+
+          <form class="form" id="leadForm">
+            <div>
+              <label for="vinInput">VIN *</label>
+              <input id="vinInput" name="vin" placeholder="Введите VIN (17 символов)" required minlength="11" />
+            </div>
+
+            <div>
+              <label for="phoneInput">Телефон *</label>
+              <input id="phoneInput" name="phone" placeholder="8 958 633-73-03" required />
+            </div>
+
+            <div>
+              <label for="channel">Как удобнее связаться</label>
+              <select id="channel" name="channel">
+                <option value="call">Звонок</option>
+                <option value="max">MAX</option>
+                <option value="telegram" selected>Telegram</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="comment">Комментарий (необязательно)</label>
+              <textarea id="comment" name="comment" placeholder="Год авто, симптомы, что уже делали в сервисе"></textarea>
+            </div>
+
+            <button class="btn primary" type="submit">Отправить в Telegram</button>
+
+            <div class="success" id="successBox">
+              ✅ Сообщение сформировано. Сейчас откроется Telegram.
+              Если не открылось — нажмите <a id="fallbackLink" href="https://t.me/Kashcars" target="_blank" rel="noopener"><b>сюда</b></a>.
+            </div>
+
+            <p class="muted" style="margin:0;">
+              Или сразу звоните: <a href="tel:+79586337303"><b>8 958 633-73-03</b></a>
+            </p>
+          </form>
+        </div>
+
+        <div class="card pad">
+          <h2>Что вы получаете</h2>
+          <ul>
+            <li><b>Комплект в наличии</b> — не ждёте поставку</li>
+            <li><b>Фото/видео до оплаты</b> — вы понимаете, что покупаете</li>
+            <li><b>Подбор по VIN</b> — совместимость подтверждаем</li>
+            <li><b>14 дней</b> на проверку и установку — замена/возврат</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="divider"></div>
+      <p style="margin:0 0 8px;">
+        📞 <a href="tel:+79586337303"><b>8 958 633-73-03</b></a> •
+        <a href="https://t.me/Kashcars" target="_blank" rel="noopener"><b>Telegram: @Kashcars</b></a> •
+        <a href="https://www.avito.ru/profile/rating" target="_blank" rel="noopener"><b>Отзывы Avito</b></a>
+      </p>
+      <p style="margin:0;">Help Toyota • OEM-номера указаны для идентификации и проверки совместимости.</p>
+    </div>
+  </footer>
+
+  <!-- MOBILE BAR -->
+  <div class="mobbar" aria-label="Быстрые действия">
+    <div class="wrap">
+      <a class="btn primary" href="tel:+79586337303">Позвонить</a>
+      <a class="btn tg" href="https://t.me/Kashcars" target="_blank" rel="noopener">TG</a>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX GALLERY -->
+  <div class="lb" id="lightbox" aria-hidden="true">
+    <div class="lb-card" role="dialog" aria-modal="true" aria-label="Галерея">
+      <div class="lb-top">
+        <div class="lb-title" id="lbTitle">Просмотр</div>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <button class="btn small max" id="lbFit" type="button">Вписать</button>
+          <button class="btn small max" id="lbOne" type="button">100%</button>
+          <button class="lb-close" id="lbClose" type="button" aria-label="Закрыть">×</button>
+        </div>
+      </div>
+
+      <div class="lb-body">
+        <button class="lb-nav left" id="lbPrev" type="button" aria-label="Предыдущий">‹</button>
+        <div class="lb-stage" id="lbStage">
+          <img class="lb-img" id="lbImg" alt="Увеличенное изображение" />
+        </div>
+        <button class="lb-nav right" id="lbNext" type="button" aria-label="Следующий">›</button>
+      </div>
+
+      <div class="lb-cap" id="lbCap"></div>
+      <div class="lb-thumbs" id="lbThumbs"></div>
+    </div>
+  </div>
+
+  <script>
+    // ===== Prefill: "получить фото/видео" =====
+    (function(){
+      const TG_USER = "Kashcars";
+      const btn = document.getElementById("btnProof");
+      if(!btn) return;
+      const txt = encodeURIComponent(
+        "Здравствуйте! Нужен комплект гидроподвески AHC LX570/LC200.\n" +
+        "Пришлите, пожалуйста, фото/видео комплекта и подтвердите совместимость по VIN.\n" +
+        "VIN: (впишу)"
+      );
+      btn.href = `https://t.me/${TG_USER}?text=${txt}`;
+      btn.target = "_blank";
+      btn.rel = "noopener";
+    })();
+
+    // ===== Carousel + autoplay + swipe =====
+    (function () {
+      const root = document.getElementById("componentsCarousel");
+      if (!root) return;
+
+      const track = root.querySelector(".carousel-track");
+      const slides = Array.from(root.querySelectorAll(".carousel-slide"));
+      const prevBtn = root.querySelector("[data-car-prev]");
+      const nextBtn = root.querySelector("[data-car-next]");
+      const dotsRoot = document.getElementById("componentsDots");
+
+      let index = 0;
+      let startX = 0, dx = 0, isDown = false;
+
+      const AUTOPLAY_MS = 3800;
+      let timer = null, paused = false;
+
+      function render(){
+        track.style.transform = `translateX(${-index * 100}%)`;
+        dotsRoot?.querySelectorAll(".dot").forEach((d,i)=>d.classList.toggle("active", i===index));
+      }
+      function next(){ index = (index+1) % slides.length; render(); }
+      function prev(){ index = (index-1+slides.length) % slides.length; render(); }
+      function goTo(i){ index = Math.max(0, Math.min(slides.length-1, i)); render(); }
+
+      if(dotsRoot){
+        dotsRoot.innerHTML="";
+        slides.forEach((_,i)=>{
+          const dot=document.createElement("button");
+          dot.type="button";
+          dot.className="dot"+(i===0?" active":"");
+          dot.addEventListener("click", ()=>{goTo(i); restartAutoplay();});
+          dotsRoot.appendChild(dot);
+        });
+      }
+
+      prevBtn?.addEventListener("click", ()=>{prev(); restartAutoplay();});
+      nextBtn?.addEventListener("click", ()=>{next(); restartAutoplay();});
+
+      root.addEventListener("pointerdown",(e)=>{
+        isDown=true; startX=e.clientX; dx=0;
+        root.setPointerCapture(e.pointerId);
+        pauseAutoplay();
+      });
+      root.addEventListener("pointermove",(e)=>{ if(!isDown) return; dx=e.clientX-startX; });
+      root.addEventListener("pointerup",()=>{
+        if(!isDown) return;
+        isDown=false;
+        const t=50;
+        if(dx>t) prev(); else if(dx<-t) next();
+        restartAutoplay();
+      });
+
+      root.addEventListener("mouseenter", pauseAutoplay);
+      root.addEventListener("mouseleave", restartAutoplay);
+      document.addEventListener("visibilitychange", ()=> document.hidden ? pauseAutoplay() : restartAutoplay());
+
+      function startAutoplay(){
+        if(timer || paused || slides.length<=1) return;
+        timer=setInterval(()=>{ if(!paused) next(); }, AUTOPLAY_MS);
+      }
+      function pauseAutoplay(){ paused=true; if(timer){clearInterval(timer); timer=null;} }
+      function restartAutoplay(){ paused=false; if(timer){clearInterval(timer); timer=null;} startAutoplay(); }
+
+      render();
+      startAutoplay();
+    })();
+
+    // ===== Quiz (2 questions -> TG prefill) =====
+    (function(){
+      const TG_USER="Kashcars";
+      const step1=document.getElementById("step1");
+      const step2=document.getElementById("step2");
+      const bar=document.getElementById("quizBar");
+      const toTG=document.getElementById("quizToTG");
+
+      let q1=null,q2=null;
+      if(bar) bar.style.width="50%";
+
+      function updateLink(pulse){
+        const msg =
+          "Квиз с сайта (гидроподвеска AHC):\n" +
+          `Авто: ${q1 || "—"}\n` +
+          `Проблема: ${q2 || "—"}\n\n` +
+          "Нужна проверка совместимости по VIN и фото/видео комплекта.\nVIN: (впишу)";
+        const url = `https://t.me/${TG_USER}?text=${encodeURIComponent(msg)}`;
+        toTG.href=url; toTG.target="_blank"; toTG.rel="noopener";
+        if(pulse){ toTG.style.boxShadow="0 16px 36px rgba(225,29,72,.28)"; setTimeout(()=>toTG.style.boxShadow="", 600); }
+      }
+      updateLink();
+
+      step1?.addEventListener("click",(e)=>{
+        const b=e.target.closest("[data-q1]");
+        if(!b) return;
+        q1=b.getAttribute("data-q1");
+        step1.classList.remove("active");
+        step2.classList.add("active");
+        if(bar) bar.style.width="100%";
+        updateLink();
+      });
+      step2?.addEventListener("click",(e)=>{
+        const b=e.target.closest("[data-q2]");
+        if(!b) return;
+        q2=b.getAttribute("data-q2");
+        updateLink(true);
+      });
+    })();
+
+    // ===== VIN form -> TG prefill =====
+    (function () {
+      const TG_USER = "Kashcars";
+      const form = document.getElementById("leadForm");
+      const successBox = document.getElementById("successBox");
+      const fallbackLink = document.getElementById("fallbackLink");
+      if (!form) return;
+
+      const s = (v)=> (v||"").toString().trim();
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const vin = s(document.getElementById("vinInput").value);
+        const phone = s(document.getElementById("phoneInput").value);
+        const channel = s(document.getElementById("channel").value);
+        const comment = s(document.getElementById("comment").value);
+
+        if (!vin || !phone) { alert("Пожалуйста, заполните VIN и телефон."); return; }
+
+        const msg = [
+          "Заявка с сайта (гидроподвеска AHC LX570 / LC200):",
+          `VIN: ${vin}`,
+          `Телефон: ${phone}`,
+          `Удобно связаться: ${channel === "call" ? "Звонок" : (channel === "max" ? "MAX" : "Telegram")}`,
+          comment ? `Комментарий: ${comment}` : null,
+          "",
+          "Прошу подтвердить совместимость и прислать фото/видео комплекта."
+        ].filter(Boolean).join("\n");
+
+        const tgUrl = `https://t.me/${TG_USER}?text=${encodeURIComponent(msg)}`;
+
+        if (successBox) successBox.style.display = "block";
+        if (fallbackLink) fallbackLink.href = tgUrl;
+
+        window.open(tgUrl, "_blank", "noopener,noreferrer");
+      });
+    })();
+
+    // ===== Lightbox gallery: components + reviews =====
+    (function(){
+      const lb = document.getElementById("lightbox");
+      const lbImg = document.getElementById("lbImg");
+      const lbCap = document.getElementById("lbCap");
+      const lbTitle = document.getElementById("lbTitle");
+      const lbClose = document.getElementById("lbClose");
+      const lbPrev = document.getElementById("lbPrev");
+      const lbNext = document.getElementById("lbNext");
+      const lbThumbs = document.getElementById("lbThumbs");
+      const lbStage = document.getElementById("lbStage");
+      const btnFit = document.getElementById("lbFit");
+      const btnOne = document.getElementById("lbOne");
+
+      if(!lb || !lbImg || !lbThumbs || !lbStage) return;
+
+      const components = Array.from(document.querySelectorAll('[data-gallery="components"]'))
+        .map(el => ({src: el.getAttribute("src"), cap: el.getAttribute("data-cap") || el.alt || "Фото"}));
+
+      const reviews = Array.from(document.querySelectorAll('#reviewsGrid .rev'))
+        .map(btn => ({src: btn.getAttribute("data-src"), cap: btn.getAttribute("data-cap") || "Отзыв"}));
+
+      const galleries = { components, reviews };
+
+      let currentGallery = "components";
+      let index = 0;
+
+      function renderThumbs(){
+        lbThumbs.innerHTML = "";
+        galleries[currentGallery].forEach((it, i)=>{
+          const b=document.createElement("button");
+          b.type="button";
+          if(i===index) b.className="active";
+          const im=document.createElement("img");
+          im.src=it.src; im.alt=it.cap||"thumb";
+          b.appendChild(im);
+          b.addEventListener("click",()=>openAt(i));
+          lbThumbs.appendChild(b);
+        });
+        lbThumbs.querySelector("button.active")?.scrollIntoView({block:"nearest", inline:"center"});
+      }
+
+      function setFit(){
+        lbImg.style.maxWidth="100%";
+        lbImg.style.maxHeight="100%";
+        lbImg.style.width="";
+        lbImg.style.height="";
+        lbStage.scrollTop=0; lbStage.scrollLeft=0;
+      }
+
+      function setOneToOne(){
+        lbImg.style.maxWidth="none";
+        lbImg.style.maxHeight="none";
+        lbImg.style.width="auto";
+        lbImg.style.height="auto";
+      }
+
+      function openAt(i){
+        const items = galleries[currentGallery];
+        if(!items.length) return;
+        index = Math.max(0, Math.min(items.length-1, i));
+        const it = items[index];
+
+        lbImg.src = it.src;
+        lbCap.textContent = it.cap || "";
+        lbTitle.textContent = currentGallery === "reviews" ? "Отзывы (Avito)" : "Фото комплекта";
+
+        lb.classList.add("open");
+        lb.setAttribute("aria-hidden","false");
+        document.body.style.overflow="hidden";
+
+        setFit();
+        renderThumbs();
+      }
+
+      function close(){
+        lb.classList.remove("open");
+        lb.setAttribute("aria-hidden","true");
+        lbImg.src="";
+        document.body.style.overflow="";
+      }
+
+      function next(){
+        const items=galleries[currentGallery];
+        index=(index+1)%items.length;
+        openAt(index);
+      }
+      function prev(){
+        const items=galleries[currentGallery];
+        index=(index-1+items.length)%items.length;
+        openAt(index);
+      }
+
+      document.addEventListener("click",(e)=>{
+        const rev = e.target.closest('#reviewsGrid .rev');
+        if(rev){
+          currentGallery="reviews";
+          const src=rev.getAttribute("data-src");
+          const i=galleries.reviews.findIndex(x=>x.src===src);
+          openAt(i>=0?i:0);
+          return;
+        }
+        const img = e.target.closest('[data-gallery="components"]');
+        if(img){
+          currentGallery="components";
+          const src=img.getAttribute("src");
+          const i=galleries.components.findIndex(x=>x.src===src);
+          openAt(i>=0?i:0);
+        }
+      });
+
+      lbClose?.addEventListener("click", close);
+      lbPrev?.addEventListener("click", prev);
+      lbNext?.addEventListener("click", next);
+      btnFit?.addEventListener("click", setFit);
+      btnOne?.addEventListener("click", setOneToOne);
+      lb.addEventListener("click",(e)=>{ if(e.target===lb) close(); });
+
+      document.addEventListener("keydown",(e)=>{
+        if(!lb.classList.contains("open")) return;
+        if(e.key==="Escape") close();
+        if(e.key==="ArrowLeft") prev();
+        if(e.key==="ArrowRight") next();
+      });
+
+      let sx=0, dx=0, down=false;
+      lbStage.addEventListener("pointerdown",(e)=>{ down=true; sx=e.clientX; dx=0; lbStage.setPointerCapture(e.pointerId); });
+      lbStage.addEventListener("pointermove",(e)=>{ if(!down) return; dx=e.clientX-sx; });
+      lbStage.addEventListener("pointerup",()=>{ if(!down) return; down=false; if(dx>60) prev(); else if(dx<-60) next(); });
+    })();
+  </script>
+
+</body>
+</html>
